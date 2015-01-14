@@ -1,0 +1,161 @@
+/*
+
+GamePanelX
+
+Description:  Main CSS File
+
+Author:       Ryan D. Gehrig
+License:      GNU General Public License (GPL)
+
+*/
+body
+{
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+tr,td,th,tbody
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+/*  BEGIN Links  */
+a
+{
+    text-decoration:none;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:hover
+{
+    color: lightblue;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:active
+{
+    color: lightblue;
+}
+
+/* Main table in Game Manager */
+.gametable
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+/* Title for each page at the top of the frame (with the gradient) */
+.top_page_titles
+{
+    color: black;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* For all normal table display */
+.tablez
+{
+    color: black;
+    background-color: #999999;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* For game server display in Game Manager*/
+.game_tablez
+{
+    color: black;
+}
+
+/* For titles on the tops of tables */
+.top_titles
+{
+    font-family: Arial, verdana;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+/* For alternate-colored table display */
+.rowz_alt
+{
+    color: black;
+}
+
+/* For table row display */
+.rowz_title
+{
+    color: black;
+    background-color: #cbcbcb;
+    font-weight: bold;
+}
+
+/* For use with all main input boxes */
+.userinput
+{
+    color: black;
+    height: 23px;
+    vertical-align: middle;
+    font-family: Arial,Verdana;
+    font-size: 12px;
+    border: 1px solid #649fff;
+    /*
+    border-left: 1px solid red;
+    border-right: 0px;
+    border-top: 1px solid 0B0B0B;
+    border-bottom: 1px solid 0B0B0B; */
+}
+
+/* For use with all main downdown menus */
+.dropdown
+{
+    color:black;
+    height:23px;
+    vertical-align: middle;
+    font-family:Arial,Verdana;
+    font-size:12px;
+    border-left:0px;
+    border-right:0px;
+    border-top:1px solid 0B0B0B;
+    border-bottom:1px solid 0B0B0B;
+    background-color:white;
+}
+
+/* Login page table */
+.login_table
+{
+    color: black;
+    background-color: #d1d1d1;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/* Input box for login page */
+.loginbox
+{
+    border:1px solid white;
+    background-color:333333;
+    color:white;
+}
+
+/* Popup Info */
+#dek
+{
+    POSITION:absolute;
+    VISIBILITY:hidden;
+    Z-INDEX:200;
+}
